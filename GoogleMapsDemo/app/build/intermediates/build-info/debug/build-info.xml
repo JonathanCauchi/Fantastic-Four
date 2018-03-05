@@ -5,10 +5,11 @@
     build-mode="FULL"
     density="420dpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.1"
-    timestamp="1519750232183"
+    timestamp="1520268955266"
     token="2043752270797381480"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -18,10 +19,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="51" />
     <task
         name="verifier"
-        duration="0" />
+        duration="104" />
 
     <artifact
         location="C:\Users\Neil\AndroidStudioProjects\GoogleMapsDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -62,8 +63,9 @@
 
     <build
         build-mode="FULL"
-        timestamp="1519750232183"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1520268955266"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Neil\AndroidStudioProjects\GoogleMapsDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
