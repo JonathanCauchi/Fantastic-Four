@@ -1,18 +1,14 @@
 package com.example.neil.googlemapsdemo;
 
 /**
- * Created by Neil on 3/5/2018.
+ * Created by Neil on 3/6/2018.
  */
 
 public class Request {
-    int timeout;
-    String userId;
+    String from;
     public Request(){}
-    public Request(int timeout, String userId){
-        this.timeout = timeout;
-        this.userId = userId;
 
+    public Request(String from){
+        this.from = from;
     }
-
 }
-

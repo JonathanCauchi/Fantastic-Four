@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Neil\\AndroidStudioProjects\\GoogleMapsDemo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\School\\Year 2, Semester 2\\CPS1010\\src\\GoogleMapsDemo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Neil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0e43a981ded32f4b02c0f6ae7e32f4d0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Neil\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.1.aar\\c514356cd52a089aa3ff8ad5c42dc05f\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Neil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\e61fe9a12f9bf8c97241bfa1eb10d530\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
