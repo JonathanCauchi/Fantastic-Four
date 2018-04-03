@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.gabriel.friendslist.Search">
+
+    <TextView
+        android:id="@+id/heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Search Users"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading_label"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/add_friend_btn"
+        android:layout_toStartOf="@+id/add_friend_btn"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Search Here"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#999999"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/add_friend_btn"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:foreground="@android:color/transparent"
+        app:srcCompat="@drawable/search_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/friend_requests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search_field"
+        android:layout_marginTop="50dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageButton
+        android:id="@+id/add_friend_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/friend_requests"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/search_field"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+</RelativeLayout>

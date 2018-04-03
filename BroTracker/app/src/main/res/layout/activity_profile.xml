@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.friendslist.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Display Name"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Username"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/profile_send_req_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="?attr/colorPrimaryDark"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Send Friend Request"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/profile_decline_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/colorPrimaryDark"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Decline Friend Request"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
