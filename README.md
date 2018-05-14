@@ -1,6 +1,6 @@
 # BroTracker App
 
-Description : This is an app that allows you to share your location with others. You can also access others location. One can publish and unpublish his/her location. The user can create a username and upload a profile picture. Other features of the app are password recoverability and facebook authentication also.
+Description : This is an app that allows you to share your location with others. You can also access others location. One can publish and unpublish his/her location. The user can create a username and upload a profile picture. Another feature of the app is password recoverability.
 
 ![App Logo](app%20logo.png)
  
