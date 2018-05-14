@@ -10,7 +10,7 @@ Android Studio
 
 Google API : https://developers.google.com/maps/documentation/android-api/start
 
-Firebase :
+Firebase : https://console.firebase.google.com/u/0/project/final-project-25a7b/overview
 
 Trello: https://trello.com/b/6egKzATN/cps1010 
 
