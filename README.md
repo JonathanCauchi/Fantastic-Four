@@ -6,7 +6,7 @@ Software/Tools used:
 Android Studio
 Google API : https://developers.google.com/maps/documentation/android-api/start
 Firebase :
-Trello: https://trello.com/b/6egKzATN/cps1010
+Trello: https://trello.com/b/6egKzATN/cps1010 
 Jenkins : http://localhost:8080/job/Fantastic%20Four/
 
 
